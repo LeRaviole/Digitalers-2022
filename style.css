@@ -1,0 +1,61 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+
+    font-size: large;
+  }
+
+body {
+    background: linear-gradient(90deg, rgba(34,62,83,1) 0%, rgba(13,18,26,1) 100%);
+}
+
+main {
+    margin-top: 15em;
+}
+
+button {
+    margin: 2px;
+    height: 30px;
+    width: 50px;
+
+    cursor: pointer;
+}
+
+#Display {
+    margin-left: 25.6em;
+    margin-bottom: 3em;
+    
+    display:block;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 40px;
+    width: 350px;
+    height: 100px;
+    line-height: 100px;
+    background-color:#fff;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+
+#Calculadora {
+    margin-bottom: 5em;
+}
+
+.fila {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(4, 60px);
+}
+
+.doble {
+    width: 111px;
+}
+
+footer {
+    color: white;
+    font-size: larger;
+    margin-left: 34em;
+}
